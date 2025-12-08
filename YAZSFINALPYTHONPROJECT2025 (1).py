@@ -16,7 +16,7 @@ print(playlist)
 add_choice = input("Hi, this is the class playlist! Want to add your own touch? (yes/no): ")
 
 if add_choice.lower() != "yes":
-    print("Come back next time!...i see how it is...")
+    print("Come back next time!...I see how it is...")
 else:
     # Adding songs
     song1 = input("What is your first pick ?: ")
@@ -46,4 +46,5 @@ else:
 print("YAYYY FINAL PLAY LIST")
 print(playlist)
 print("Thank you for your choices! These are great songs. Come back soon!")
+
 print("P.S reset this program when you're done please,")
